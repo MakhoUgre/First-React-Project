@@ -1,0 +1,28 @@
+.Timer {
+    font-family: sans-serif;
+    padding-top: 30px;
+
+    display: grid;
+    place-items: center;
+    color: orange;
+  }
+
+  .butt{
+    color: orange;
+  }
+
+  button {
+    padding: 10px;
+    margin: 10px 2px;
+    border-radius: 5px;
+  }
+  button:nth-of-type(1) {
+    background: green;
+  }
+  button:nth-of-type(2) {
+    background: red;
+  }
+  button:nth-of-type(3) {
+    background: yellow;
+  }
+ 
