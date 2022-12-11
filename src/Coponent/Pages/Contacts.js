@@ -2,7 +2,7 @@
 function Contacts() {
     return(
         <main>
-            <h1> Contacts Page </h1>
+            <h1 className="h1"> Contacts Page </h1>
         </main>
 
     );
