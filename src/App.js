@@ -22,9 +22,7 @@ function App() {
         <Route  path='/Contacts' element={<Contacts />}/>,
         <Route path='/SlideShow' element={<SlideShow/>} />,
         <Route  path='*' element={<PageNotFound/>}/>,
-
     </Routes>
-  
   </BrowserRouter>
   
   );
