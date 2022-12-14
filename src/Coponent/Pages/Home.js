@@ -15,7 +15,7 @@ function Home() {
 
     return(
         <main>
-            <h1 className="h1"> Home Page </h1>
+            <h1 className="h1"> Home Page !</h1>
             <h3 className='h1'> This Page Will Move To "Programs" Page In 5 Secs</h3>
         </main>
 
