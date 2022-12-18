@@ -9,20 +9,28 @@
 
   .butt{
     color: orange;
-  }
-
-  button {
+    background-color: brown;
     padding: 10px;
     margin: 10px 2px;
     border-radius: 5px;
   }
-  button:nth-of-type(1) {
+
+  .butt1 {
     background: green;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 2px;
   }
-  button:nth-of-type(2) {
+  .butt2 {
     background: red;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 2px;
   }
-  button:nth-of-type(3) {
+  .butt3 {
     background: yellow;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 2px;
   }
  

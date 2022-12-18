@@ -17,6 +17,8 @@
 .ul{
     display: flex;
     margin: 25px;
+    color: antiquewhite;
+    font-weight: bolder;
 }
 
 li{

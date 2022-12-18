@@ -2,7 +2,8 @@
 function PageNotFound() {
     return(
         <main>
-            <h1> Page Not Found  </h1>
+            <br></br>
+            <h1 className="h1"> Page Not Found, Please Press on Home Butten </h1>
         </main>
 
     );

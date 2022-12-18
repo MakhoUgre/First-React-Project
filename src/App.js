@@ -8,6 +8,7 @@ import Programs from './Coponent/Pages/Programs';
 import ToDoList from './Coponent/Pages/ToDoList';
 import SlideShow from './Coponent/Pages/SlideShow';
 import Navbar from './Coponent/Pages/Navbar';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 
 function App() {

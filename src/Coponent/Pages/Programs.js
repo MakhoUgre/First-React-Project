@@ -23,16 +23,16 @@ const Timer = ()=> {
         <dir className='Timer'>
              {show ? <h1>Timer</h1> : null }
            
-            <button onClick={()=> setShow((show)=> !show)} className="butt"> Show / Hide </button>
+            <button className="butt" onClick={()=> setShow((show)=> !show)}> Show / Hide </button>
             <br />
             <br />
             
             <span>{Math.trunc(timer / 60 )} mins</span>
             <span>{timer % 60 } secs</span>
             <div>
-                <button onClick={startTimer} >Start</button>
-                <button onClick={stopTimer} >Stop</button>
-                <button onClick={resetTimer} >Reset</button>
+                <button className="butt1" onClick={startTimer} >Start</button>
+                <button className="butt2" onClick={stopTimer} >Stop</button>
+                <button className="butt3"  onClick={resetTimer} >Reset</button>
                 
             </div>
         </dir>
